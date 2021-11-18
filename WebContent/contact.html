@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Rajasthan Tourism Contact</title>
+		<link rel="stylesheet" href="contactstyle.css">
+		<script type="text/javascript" src="validation.js"></script>  
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+		$(document).ready(function(){
+		  $("input").focus(function(){
+			$(this).css("background-color", "#cccccc");
+		  });
+		  $("input").blur(function(){
+			$(this).css("background-color", "#ffffff");
+		  });
+		});
+		</script>
+
+	</head>
+	<body>
+	
+	  <p class="heading" align="center"><font face = "Comic sans MS" size ="15" >Rajasthan Tourism</font><br /> </p>
+<div class="topnav">
+<h1>
+<ul>
+  <li><a class="active" href="#contact">Contact Us</a></li>
+  <li><a href="about.html">About Us</a></li>
+  <li><a  href="index.html">Home</a></li>
+
+</ul>
+</h1>
+</div>	
+			<div class="main">
+			
+			<h1> Toll Free Number </h1>
+			    Group Tours: 1850 442 3100 </br>
+                Corporate Travel: 1811 00 9080</br>
+                SMS: ABC (space) your message to 0123456789</br>
+                Monday to Saturday Between 8am - 11pm</br><br><br>
+			
+		    <h1>Corporate Office</h1>
+			ABC Tours Pvt. Ltd. </br>
+			242, L.J. Road, Shivaji Nagar, </br>
+			Pune - 411044 India. </br>
+
+			Tel :+9122-2433 2222 </br>
+			Fax :+9122-2432 2020 </br>
+			Email :holiday@abc.in </br>
+			
+			</div>
+			<div class="sidebar">
+			<form name="aForm"  action="WebServ" method="get" >
+				<h1>Contact Form!!!</h1>
+				  Name:  <span>*</span><br> <input type="text" name='name'><br>
+				  Mobile number:<span>*</span> <br> <input type="text" name='mobile'><br>
+				  Email id:<span>*</span>   <br> <input type="text" name='email'><br>
+				  Message:  <br>  <textarea name="message" rows="5" cols="15"></textarea><br>
+				  <input type="submit" class="button" onclick="return validate()"  value="Submit" >
+			</form>	
+			</div>
+
+			<!-- <div class="clr"></div> -->
+
+	</body>
+</html>
